@@ -1,7 +1,7 @@
 import { useCelo } from "@celo/react-celo";
 import { useState, useRef } from "react";
 
-import imageStorageAbi from "../imageStorage.abi";
+import {imageStorageAbi} from "../imageStorage.abi";
 
 export default function Home() {
   const { connect, address, kit } = useCelo();

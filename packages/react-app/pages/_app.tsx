@@ -8,7 +8,7 @@ import Layout from "../components/Layout";
 function App({ Component, pageProps }: AppProps) {
   return (
     <CeloProvider
-      dapp
+      dapp={{ name: "Image Storage Dapp", icon:"", url:"", description:"" }}
       defaultNetwork={Alfajores.name}
       connectModal={{
         title: <span>Connect your Wallet</span>,

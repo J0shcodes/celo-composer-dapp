@@ -1,4 +1,4 @@
-const imageStorageAbi = [
+export const imageStorageAbi = [
   {
     inputs: [
       {
@@ -38,4 +38,4 @@ const imageStorageAbi = [
   },
 ];
 
-export default imageStorageAbi;
+// export default imageStorageAbi;
